@@ -6,13 +6,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-<title>Volant Express – Volants de voiture</title>
-<meta name="description" content="Volants sport en carbone, alcantara et LED pour BMW, Audi, Mercedes, VW, Toyota, Honda et plus. Commandez facilement sur WhatsApp.">
+<title>Volant Express – Volants sport carbone, LED et alcantara</title>
+<meta name="description" content="Volant Express : boutique de volants de voiture sport en carbone, Alcantara et LED pour BMW, Audi, Mercedes, VW, Toyota, Porsche, Nissan et plus. Commandez facilement sur WhatsApp.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://volant-express33.github.io/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Volant Express">
 <meta property="og:locale" content="fr_FR">
 <meta property="og:title" content="Volant Express – Volants sport carbone, LED et alcantara">
-<meta property="og:description" content="Plus de 15 volants sport pour BMW, Audi, Mercedes, VW, Toyota, Honda... Commandez en un clic sur WhatsApp.">
+<meta property="og:description" content="Plus de 20 volants sport pour BMW, Audi, Mercedes, VW, Toyota, Honda... Commandez en un clic sur WhatsApp.">
 <meta property="og:url" content="https://volant-express33.github.io/">
 <meta property="og:image" content="https://volant-express33.github.io/images/og-image.jpg">
 <meta property="og:image:width" content="1200">
@@ -21,6 +23,20 @@
 <meta name="twitter:title" content="Volant Express – Volants sport carbone, LED et alcantara">
 <meta name="twitter:image" content="https://volant-express33.github.io/images/og-image.jpg">
 <meta name="theme-color" content="#0b3d91">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "Volant Express",
+  "url": "https://volant-express33.github.io/",
+  "image": "https://volant-express33.github.io/images/og-image.jpg",
+  "description": "Boutique de volants de voiture sport en carbone, Alcantara et LED. Commande simple sur WhatsApp.",
+  "telephone": "+33673759435",
+  "priceRange": "350 € - 750 €",
+  "currenciesAccepted": "EUR",
+  "sameAs": []
+}
+</script>
 <style>
   :root{
     --blue:#0b3d91; --blue-dark:#072a66; --red:#e1222d; --red-dark:#b81821;
@@ -260,7 +276,7 @@ const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">"
 let current = "Tout";
 
 function init(){
-  document.title = CONFIG.shopName + " – Volants de voiture";
+  document.title = CONFIG.shopName + " – Volants sport carbone, LED et alcantara";
   document.getElementById("topbar").textContent = CONFIG.topbar;
   const parts = CONFIG.shopName.split(" "); const first = parts.shift();
   document.getElementById("logo").innerHTML = `<span class="w1">${esc(first)}</span> <span class="w2">${esc(parts.join(" "))}</span>`;
